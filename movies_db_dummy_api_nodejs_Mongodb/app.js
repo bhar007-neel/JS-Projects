@@ -16,6 +16,8 @@ mongoose
   });
 
 const app = express();
+app.use(express.json());
+// models
 
 require("./models/movies.model");
 

@@ -1,5 +1,5 @@
 {
-  "name": "movies_db_dummy_api_nodejs_mongodb",
+  "name": "expense-tracker-pro",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.15.1",
-    "movies_db_dummy_api_nodejs_mongodb": "file:",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^8.16.0",
     "nodemon": "^3.1.10"
   }
 }
